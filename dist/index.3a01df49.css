@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Work Sans, sans-serif;
+}
+
+html {
+  color: #60657b;
+}
+
+body {
+  background: #fff;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  display: flex;
+}
+
+.container {
+  margin-top: 80px;
+  padding: 30px;
+}
+
+h2 {
+  color: #2b2d38;
+  text-align: center;
+  letter-spacing: -.2px;
+  font-family: Merriweather, serif;
+  font-size: 48px;
+}
+
+p {
+  text-align: center;
+  max-width: 50rem;
+  margin-top: 24px;
+  margin-bottom: 100px;
+}
+
+.main-content {
+  resize: none;
+  background: #fff;
+  border: .5px solid #e7e9f5;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 50rem;
+  height: auto;
+  min-height: 400px;
+  padding: 18px 18px 120px;
+  position: relative;
+  box-shadow: 0 12px 48px #6d758d33;
+}
+
+.main-content:focus {
+  border: .3px solid #2b2d384d;
+  outline: none;
+}
+
+p, .main-content {
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.btn-style {
+  display: flex;
+}
+
+button {
+  color: #fff;
+  letter-spacing: 1px;
+  cursor: pointer;
+  background: linear-gradient(#ff5722, #e64a19);
+  border: none;
+  border-radius: 6px;
+  margin: 10px 0;
+  padding: 16px 32px;
+  font-size: 18px;
+  transition: background .3s;
+}
+
+button:hover {
+  background: linear-gradient(#e64a19, #ff5722);
+  box-shadow: 0 2px 4px #0003;
+}
+
+.counter-container {
+  justify-content: space-between;
+  margin-top: 30px;
+  display: flex;
+}
+
+@media screen and (width <= 768px) {
+  .container {
+    margin-top: 20px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  p {
+    word-spacing: normal;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .main-content {
+    word-spacing: normal;
+    font-size: 16px;
+  }
+
+  button {
+    margin-top: -70px;
+    padding: 12px 28px;
+    font-size: 16px;
+  }
+
+  .counter-container {
+    flex-direction: column;
+  }
+
+  .counter-container p:first-child {
+    margin-bottom: 0;
+  }
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */
